@@ -50,4 +50,4 @@ Client.on('message', (message)=>{
     })
 
 //Put Key here
-Client.login("ADD YOUR PERSONAL BOT KEY HERE");
+Client.login("ADD_YOUR_PERSONAL_BOT_KEY_HERE");
