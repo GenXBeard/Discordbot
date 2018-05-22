@@ -1,3 +1,6 @@
+//Version 0.0.2
+
+
 const Discord = require("discord.js");
 const Client = new Discord.Client();
 const prefix ="!";
@@ -50,4 +53,4 @@ Client.on('message', (message)=>{
     })
 
 //Put Key here
-Client.login("ADD_YOUR_PERSONAL_BOT_KEY_HERE");
+Client.login("NDQ4MzAzMjE2NTI3MTQ3MDA5.DeUKcA.mdI0u7b6McAXzLjd_aXkUdRxQLY");
