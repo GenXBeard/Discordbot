@@ -53,4 +53,4 @@ Client.on('message', (message)=>{
     })
 
 //Put Key here
-Client.login("NDQ4MzAzMjE2NTI3MTQ3MDA5.DeUKcA.mdI0u7b6McAXzLjd_aXkUdRxQLY");
+Client.login("Add_Your_Key_Here");
