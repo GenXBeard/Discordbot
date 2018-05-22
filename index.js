@@ -23,7 +23,7 @@ Client.on('message', (message)=>{
         message.author.send("Hello, this is my help command.");    
     }
 
-//Prune for mods only
+//Prune for mods only. Change Big Boss to your mod title
     if(message.content.startsWith(prefix + "prune")){
         let args = message.content.split(" ").splice(1);
         let author =message.member;
@@ -53,4 +53,4 @@ Client.on('message', (message)=>{
     })
 
 //Put Key here
-Client.login("Add_Personal_Key_Here");
+Client.login("NDQ4MzAzMjE2NTI3MTQ3MDA5.DeUKcA.mdI0u7b6McAXzLjd_aXkUdRxQLY");
