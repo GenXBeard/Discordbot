@@ -1,9 +1,11 @@
-//Version 0.0.2
+//Version 0.0.3
 
 
 const Discord = require("discord.js");
 const Client = new Discord.Client();
 const prefix ="!";
+const now = new Date();
+
 
 Client.on('ready',()=>{
 console.log("Yo, yo, yo! I'm online!");
@@ -12,15 +14,23 @@ console.log("Yo, yo, yo! I'm online!");
 Client.on('message', (message)=>{
     if(!message.content.startsWith(prefix)) 
     return;
-//Greeting here
+//Commands here
 
+    //Greeting
     if(message.content.startsWith(prefix + "hello")){
-        message.channel.send("Hello, " + message.author + ", how are you doing?")   }
+        message.channel.send("Hello, " + message.author + ", how are you doing?");   
+    }   
+    //getTime
+    if(message.content.startsWith(prefix + "time")){
+       message.channel.send("The local time is " + now + ", "+ message.author);
+     } 
+
 //Help command here
 
     if(message.content.startsWith(prefix + "help")){
         message.channel.send("Check PM");
-        message.author.send("Hello, this is my help command.");    
+        message.author.send("Hello, this is my help command.");
+        message.author.send("Here is a list of commands. \r !help for help. \r !hello for greeting. \r !time for Local time \r !prune to cut messages (mods only).");
     }
 
 //Prune for mods only. Change Big Boss to your mod title
@@ -53,4 +63,4 @@ Client.on('message', (message)=>{
     })
 
 //Put Key here
-Client.login("Add_Your_Key_Here");
+Client.login("SuperSecretKeyGoesHere");
