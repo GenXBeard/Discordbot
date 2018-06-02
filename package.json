@@ -1,0 +1,21 @@
+{
+  "name": "Discordbot.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "enmap": "^2.5.2",
+    "moment": "^2.22.1",
+    "random-cat": "^1.0.1",
+    "random-quote": "0.0.1",
+    "snekfetch": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
